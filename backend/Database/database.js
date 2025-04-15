@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.DB_user}:${process.env.DB_password}@cluster0.f9aqief.mongodb.net/${process.env.DB_name}?retryWrites=true&w=majority`,
+    `mongodb+srv://new_user31:omkar1234567890@cluster0.t3jejzq.mongodb.net/database?retryWrites=true&w=majority&appName=Cluster0`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
