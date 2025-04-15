@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Signup() {
-  const backendURL = "https://youtube-clone-mern-backend.vercel.app"
+  const backendURL = "https://video-streaming-website.onrender.com"
   // const backendURL = "http://localhost:3000";
   const [data, setData] = useState({});
   const [theme, setTheme] = useState(() => {
